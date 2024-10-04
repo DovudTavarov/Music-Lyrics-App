@@ -70,15 +70,7 @@ function modalBtn(lyrics, id) {
   modalTitle.innerHTML = `  <h5 class="modal-title" id="exampleModalLabel">
                             ${song.artist.name} -
                             <strong style="text-transform: uppercase">${song.title}</strong>
-                            </h5>
-                            <button
-                            type="button"
-                            class="btn btn-danger"
-                            data-bs-dismiss="modal"
-                            aria-label="Close"
-                            >
-                            <span aria-hidden="true">&times;</span>
-                            </button> `;
+                            </h5>`;
   modalBody.innerHTML = ` <div className="album-cover">
                             <img
                                 class="mb-2"
